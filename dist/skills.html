@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/fondoaleatoriocomun.js"></script>
+    <script src="js/hoverproyectos.js"></script>
+    <script src="js/pasador.js"></script>
+    <script src="js/hamburguesa.js"></script>
+    <!-- despues de esto de arriba los .js-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700|Roboto:300,400,700" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="fondo-comun-1">
+
+    <div id="myNav" class="overlay">
+        <div class="cerrar">
+            <div>
+                <button onclick="closeNav()" class="menu"><img src="img/x.svg" alt="menu cerrar">
+                </button>
+            </div>
+        </div>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="home.html" class=" espacio"><h2>Sobre mi</h2></a></li>
+                <li><a href="skills.html" class="espacio"><h2>Skills</h2></a></li>
+                <li><a href="#" class=" espacio"><h2>Trayectoria</h2></a></li>
+                <li><a href="proyectos.html" class="selec"><h2>Proyectos</h2></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <header class="cabecera">
+
+        <div id="logo">
+            <img id="tamaño_logo" src="img/logo.svg" alt="Logotipo una V detro de un cuadrado">
+            <div id="profesion">DISEÑADOR UI/UX</div>
+            <div class="nombre">
+                <div>VICTOR</div>
+                <div>CARBALLEDA</div>
+                <div>PUIG</div>
+            </div>
+
+        </div>
+        <div class="hamburguesa">
+            <div>
+                <button class="menu"><img onclick="openNav()" src="img/hamburguesa.svg" alt="menu hamburguesa">
+                </button>
+            </div>
+        </div>
+
+
+        <nav id="menu-container">
+            <ul>
+                <li><a href="home.html" class=" espacio">Sobre mi</a></li>
+                <li><a href="skills.html" class="espacio selec">Skills</a></li>
+                <li><a href="#" class=" espacio">Trayectoria</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="miga">
+        <span class="subrayado">skills</span>
+    </div>
+    <main>
+
+        <div class="pasador">
+            <div class="pasa">
+                <div class="prev">&lt;</div>
+                <div class="next">&gt;</div>
+            </div>
+
+            <ul class="slides">
+                <li id="slide-1" data-n="1">
+                    <div class="o-progress-circle o-progress-circle--rounded">
+                        <div class="o-progress-circle__number">
+                            <span data-pourcent>70</span><em>%</em>
+                        </div>
+                        <div class="o-progress-circle__fill">
+                            <svg class="icon" viewBox="0 0 40 40">
+                        <circle r="15.9154943092" cy="20" cx="20" />
+                        <circle r="15.9154943092" cy="20" cx="20" stroke-dashoffset="25" transform="rotate(-90,20,20)" />
+                        </svg>
+                        </div>
+                        <div class="program">
+                            <span data-pourcent>Sketch</span>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li id="slide-2" data-n="2">
+                  <div class="o-progress-circle o-progress-circle--rounded">
+                      <div class="o-progress-circle__number">
+                          <span data-pourcent>85</span><em>%</em>
+                      </div>
+                      <div class="o-progress-circle__fill">
+                          <svg class="icon" viewBox="0 0 40 40">
+                      <circle r="15.9154943092" cy="20" cx="20" />
+                      <circle r="15.9154943092" cy="20" cx="20" stroke-dashoffset="25" transform="rotate(-90,20,20)" />
+                      </svg>
+                      </div>
+                      <div class="program">
+                          <span data-pourcent>Sketch</span>
+                      </div>
+
+                  </div>
+                </li>
+
+
+                <li id="slide-3" data-n="3">
+                  <div class="o-progress-circle o-progress-circle--rounded">
+                      <div class="o-progress-circle__number">
+                          <span data-pourcent>65</span><em>%</em>
+                      </div>
+                      <div class="o-progress-circle__fill">
+                          <svg class="icon" viewBox="0 0 40 40">
+                      <circle r="15.9154943092" cy="20" cx="20" />
+                      <circle r="15.9154943092" cy="20" cx="20" stroke-dashoffset="35" transform="rotate(-90,20,20)" />
+                      </svg>
+                      </div>
+                      <div class="program">
+                          <span data-pourcent>Sketch</span>
+                      </div>
+                  </div>
+                </li>
+
+
+                <li id="slide-4" data-n="4">
+                  <div class="o-progress-circle o-progress-circle--rounded">
+                      <div class="o-progress-circle__number">
+                          <span data-pourcent>50</span><em>%</em>
+                      </div>
+                      <div class="o-progress-circle__fill">
+                          <svg class="icon" viewBox="0 0 40 40">
+                      <circle r="15.9154943092" cy="20" cx="20" />
+                      <circle r="15.9154943092" cy="20" cx="20" stroke-dashoffset="25" transform="rotate(-90,20,20)" />
+                      </svg>
+                      </div>
+                      <div class="program">
+                          <span data-pourcent>Sketch</span>
+                      </div>
+                  </div>
+                </li>
+            </ul>
+
+
+            <ul class="puntos">
+                <li class="marg" id="puntos-1" data-cd="1"></li>
+                <li class="marg" id="puntos-2" data-cd="2"></li>
+                <li class="marg" id="puntos-3" data-cd="3"></li>
+                <li id="puntos-4" data-cd="4"></li>
+            </ul>
+        </div>
+
+
+        <seccion class="informa">
+            <ul class="adjetivos">
+                <h2>
+                <li>CREATIVIDAD</li>
+                <li class="adje">DESARROLLO</li>
+                <li class="adje">EQUIPO</li>
+                <li class="adje">DISEÑO</li>
+                <li class="adje">COMPROMISO</li></h2>
+            </ul>
+            <hr>
+            <article class="textoskills">
+                <p>Soy una persona que gracias a las diferentes etapas que he tenido en mi vida laboral me han permitido adquirir diferentes conocimientos. En mi etapa como docente pude experimentar el trato personal y las adversidades que pueden aparecer
+                    al presentar o hacer entendibles los proyectos. En mi segunda etapa en la empresa Digital Seed pude aprender lo que realmente era el trabajo en equipo y la capacidad de trabajar bajo presión. Por último, en mi etapa como freelance
+                    he podido aprender cualidades como la autogestión y la organización. Actualmente, he seguido formandome adquiriendo conocimientos HTML, CSS y JavaScript.</p>
+                <button class="boton">CONTACTAR</button>
+            </article>
+
+        </seccion>
+        <!--<div class="foto"><img src="img/yo.png" alt="Foto retrato de Victor Carballeda"></div>-->
+
+
+    </main>
+
+    <footer class="pie">
+        <ul class="contacto">
+            <li class="link_last"><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <ul class="rrss">
+            <li class="link"><a href="https://www.linkedin.com/in/victor-carballeda-208907141/">Linkedin</a></li>
+            <li class="link" id="separacion">/</li>
+            <li class="link"><a href="https://www.behance.net/victorcarba">Béhance</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+
+
+</html>

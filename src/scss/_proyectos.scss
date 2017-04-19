@@ -1,0 +1,90 @@
+#blanco{
+    position: absolute;
+    top: 10rem;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.filete {
+  align-content: center;
+    position: absolute;
+    top: 9rem;
+    width: 87%;
+    height: 65%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.proyectos{
+
+height: 100%;
+display: flex;
+justify-content: center;
+margin: 0;
+padding-left: 0px;
+align-items: center;
+flex-direction: column;
+
+}
+
+
+.marcas{
+  padding: 0.75rem;
+}
+
+.fijo{
+    width: 100%;
+    bottom: 0;
+    margin-top: 3rem;
+   position: fixed;
+}
+
+@media (min-width: 600px) {
+
+
+  .filete {
+    top: 7.5rem;
+      height: 75%;
+  }
+
+  #blanco{
+      position: absolute;
+      top: 9rem;
+      left: 0px;
+      width: 100%;
+      height: 70%;
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+
+
+
+
+}
+
+@media (min-width: 1025px) {
+
+
+.filete {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 75%;
+}
+
+#blanco{
+  top: 50%;
+  transform: translateY(-50%);
+    left: -2.25rem;
+    width: 100%;
+    height: 71%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+background-position: center;
+
+}
+
+
+
+
+}

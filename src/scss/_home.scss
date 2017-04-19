@@ -1,0 +1,146 @@
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.destacado {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-bottom: 3.5rem;
+    margin-left: 2rem;
+}
+
+
+.cuadrado {
+    position: absolute;
+    top: 9rem;
+    width: 87%;
+    height: 27rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.transparente {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.texto {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 3.75rem;
+}
+
+
+@media (min-width: 600px) {
+
+  body {
+              height: 100vh;
+
+  }
+
+
+.cuadrado {
+  position: absolute;
+  top: 7.5rem;
+  width: 70%;
+  height: 56%;
+}
+
+
+.destacado {
+      width: 0%;
+      text-align: center;
+      padding-bottom: 0;
+      height: 54%;
+      margin-top: 120px;
+      position: absolute;
+}
+
+
+
+.texto {
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    transform: translatey(-50%);
+    left: 25%;
+}
+
+.transparente {
+    height: 60%;
+}
+
+
+}
+
+
+
+
+@media (min-width: 1025px) {
+
+    body {
+        height: 100vh;
+    }
+
+    .nombre {
+        display: flex;
+        position: static;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin: 0.8rem;
+        margin-top: 2.25rem;
+
+    }
+    .nombre div {
+        padding-top: 0.8rem;
+        font-size: 14px;
+    }
+
+    .espacio{
+      margin-right: 3rem;
+    }
+    .selec {
+        border-bottom: 1px solid white;
+    }
+    .miga {
+        display: none;
+    }
+
+    .cuadrado {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 50%;
+      height: 75%;
+    }
+
+
+    .destacado {
+      width: 20%;
+      height: 100%;
+      margin-top: 0;
+    }
+
+
+    .texto {
+      width: 30%;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translatey(-50%);
+      left: 63%;
+    }
+
+    .transparente {
+        height: 75%;
+    }
+
+
+
+
+}

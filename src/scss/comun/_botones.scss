@@ -1,0 +1,19 @@
+.boton {
+    outline: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    height: 48px;
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+
+.boton:hover {
+    background: rgba(255, 255, 255, 0.4);
+}

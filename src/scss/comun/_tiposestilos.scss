@@ -1,0 +1,103 @@
+h1 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+        color: #fff;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+        color: #fff;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+        color: #fff;
+}
+
+h4{
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
+      color: #fff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (min-width: 600px) {
+
+  h1 {
+      margin: 0px;
+      font-size: 30px;
+      font-weight: 300;
+  }
+
+h2 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+}
+
+
+@media (min-width: 1025px) {
+
+
+ul{
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
+}
+
+  h1 {
+      margin: 0px;
+      font-size: 36px;
+      font-weight: 300;
+  }
+
+h2 {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h4{
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
+      color: #fff;
+}
+
+}

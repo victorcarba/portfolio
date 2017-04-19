@@ -1,0 +1,424 @@
+.fondo-color-1{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #A31CFF, #00C3FF);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-2{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #F0CB35, #C02425);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-3{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #021B79, #0575E6);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-4{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #0F3443, #34E89E);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-5{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #FF1900, #700000);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-6{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #1CD8D2, #0A4675);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-7{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #FF6A00, #EE0979);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-8{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #333399, #FF00CC);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-9{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #05ADCB, #2E469B);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+.fondo-color-10{
+  background: url(../img/yo.png), -webkit-linear-gradient(left, #FF5858 #EE0979);
+  background-repeat: no-repeat;
+  background-position: center 130px, center 0;
+  background-blend-mode: multiply;
+}
+
+@media (min-width: 600px) {
+  .fondo-color-1{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #A31CFF, #00C3FF);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-2{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #F0CB35, #C02425);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-3{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #021B79, #0575E6);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-4{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #0F3443, #34E89E);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-5{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #FF1900, #700000);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-6{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #1CD8D2, #0A4675);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-7{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #FF6A00, #EE0979);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-8{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #333399, #FF00CC);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-9{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #05ADCB, #2E469B);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+
+  .fondo-color-10{
+    background: url(../img/yo_m.png), -webkit-linear-gradient(left, #FF5858 #EE0979);
+    background-repeat: no-repeat;
+    background-position: center 6rem, center 0;
+    background-blend-mode: multiply;
+  }
+}
+
+@media (min-width: 1025px) {
+  .fondo-color-1{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #A31CFF, #00C3FF);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-2{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #F0CB35, #C02425);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-3{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #021B79, #0575E6);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-4{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #0F3443, #34E89E);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-5{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #FF1900, #700000);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-6{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #1CD8D2, #0A4675);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-7{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #FF6A00, #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-8{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #333399, #FF00CC);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-9{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #05ADCB, #2E469B);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-10{
+    background: url(../img/yo2.png), -webkit-linear-gradient(left, #FF5858 #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+}
+
+
+@media (min-width: 1500px) {
+
+
+  .fondo-color-1{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #A31CFF, #00C3FF);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-2{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #F0CB35, #C02425);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-3{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #021B79, #0575E6);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-4{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #0F3443, #34E89E);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-5{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #FF1900, #700000);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-6{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #1CD8D2, #0A4675);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-7{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #FF6A00, #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-8{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #333399, #FF00CC);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-9{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #05ADCB, #2E469B);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-10{
+    background: url(../img/yo3.png), -webkit-linear-gradient(left, #FF5858 #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+}
+
+@media (min-width: 1750px) {
+
+
+  .fondo-color-1{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #A31CFF, #00C3FF);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-2{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #F0CB35, #C02425);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-3{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #021B79, #0575E6);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-4{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #0F3443, #34E89E);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-5{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #FF1900, #700000);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-6{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #1CD8D2, #0A4675);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-7{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #FF6A00, #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-8{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #333399, #FF00CC);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-9{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #05ADCB, #2E469B);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+  .fondo-color-10{
+    background: url(../img/yo4.png), -webkit-linear-gradient(left, #FF5858 #EE0979);
+    background-position: center 4rem, 0px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    top: 0px;
+    margin: 0;
+  }
+
+}
