@@ -29,9 +29,9 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
-        document.getElementById("uwhisp").style.visibility="hidden";
+  $("#uwhisp").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_uwhisp_b.png')";
+        document.getElementById("diadermine").style.visibility="hidden";
         document.getElementById("grupo").style.visibility="hidden";
         document.getElementById("mitosil").style.visibility="hidden";
         document.getElementById("carnet").style.visibility="hidden";
@@ -39,9 +39,9 @@ $(document).ready(function(){
         document.getElementById("udance").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#uwhisp").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
-    document.getElementById("uwhisp").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
     document.getElementById("grupo").style.visibility="visible";
     document.getElementById("mitosil").style.visibility="visible";
     document.getElementById("carnet").style.visibility="visible";
@@ -58,20 +58,20 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
+  $("#grupo").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_HUSA.png')";
         document.getElementById("uwhisp").style.visibility="hidden";
-        document.getElementById("grupo").style.visibility="hidden";
+        document.getElementById("diadermine").style.visibility="hidden";
         document.getElementById("mitosil").style.visibility="hidden";
         document.getElementById("carnet").style.visibility="hidden";
         document.getElementById("pizza").style.visibility="hidden";
         document.getElementById("udance").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#grupo").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
     document.getElementById("uwhisp").style.visibility="visible";
-    document.getElementById("grupo").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
     document.getElementById("mitosil").style.visibility="visible";
     document.getElementById("carnet").style.visibility="visible";
     document.getElementById("pizza").style.visibility="visible";
@@ -87,22 +87,22 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
+  $("#carnet").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_lacaxa.png')";
         document.getElementById("uwhisp").style.visibility="hidden";
         document.getElementById("grupo").style.visibility="hidden";
         document.getElementById("mitosil").style.visibility="hidden";
-        document.getElementById("carnet").style.visibility="hidden";
+        document.getElementById("diadermine").style.visibility="hidden";
         document.getElementById("pizza").style.visibility="hidden";
         document.getElementById("udance").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#carnet").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
     document.getElementById("uwhisp").style.visibility="visible";
     document.getElementById("grupo").style.visibility="visible";
     document.getElementById("mitosil").style.visibility="visible";
-    document.getElementById("carnet").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
     document.getElementById("pizza").style.visibility="visible";
     document.getElementById("udance").style.visibility="visible";
 
@@ -117,21 +117,21 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
+  $("#mitosil").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_mitosyl.png')";
         document.getElementById("uwhisp").style.visibility="hidden";
         document.getElementById("grupo").style.visibility="hidden";
-        document.getElementById("mitosil").style.visibility="hidden";
+        document.getElementById("diadermine").style.visibility="hidden";
         document.getElementById("carnet").style.visibility="hidden";
         document.getElementById("pizza").style.visibility="hidden";
         document.getElementById("udance").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#mitosil").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
     document.getElementById("uwhisp").style.visibility="visible";
     document.getElementById("grupo").style.visibility="visible";
-    document.getElementById("mitosil").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
     document.getElementById("carnet").style.visibility="visible";
     document.getElementById("pizza").style.visibility="visible";
     document.getElementById("udance").style.visibility="visible";
@@ -146,23 +146,23 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
+  $("#pizza").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_pizzadillo.png')";
         document.getElementById("uwhisp").style.visibility="hidden";
         document.getElementById("grupo").style.visibility="hidden";
         document.getElementById("mitosil").style.visibility="hidden";
         document.getElementById("carnet").style.visibility="hidden";
-        document.getElementById("pizza").style.visibility="hidden";
+        document.getElementById("diadermine").style.visibility="hidden";
         document.getElementById("udance").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#pizza").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
     document.getElementById("uwhisp").style.visibility="visible";
     document.getElementById("grupo").style.visibility="visible";
     document.getElementById("mitosil").style.visibility="visible";
     document.getElementById("carnet").style.visibility="visible";
-    document.getElementById("pizza").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
     document.getElementById("udance").style.visibility="visible";
 
   });
@@ -175,24 +175,24 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#diadermine").mouseover(function(){
-        document.getElementById("blanco").style.backgroundImage = "url('img/portada_diadermine.png')";
+  $("#udance").mouseover(function(){
+        document.getElementById("blanco").style.backgroundImage = "url('img/portada_udance.png')";
         document.getElementById("uwhisp").style.visibility="hidden";
         document.getElementById("grupo").style.visibility="hidden";
         document.getElementById("mitosil").style.visibility="hidden";
         document.getElementById("carnet").style.visibility="hidden";
         document.getElementById("pizza").style.visibility="hidden";
-        document.getElementById("udance").style.visibility="hidden";
+        document.getElementById("diadermine").style.visibility="hidden";
 
     });
-  $("#diadermine").mouseout(function(){
+  $("#udance").mouseout(function(){
     document.getElementById("blanco").style.backgroundImage = "url('')";
     document.getElementById("uwhisp").style.visibility="visible";
     document.getElementById("grupo").style.visibility="visible";
     document.getElementById("mitosil").style.visibility="visible";
     document.getElementById("carnet").style.visibility="visible";
     document.getElementById("pizza").style.visibility="visible";
-    document.getElementById("udance").style.visibility="visible";
+    document.getElementById("diadermine").style.visibility="visible";
 
   });
 

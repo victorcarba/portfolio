@@ -1,4 +1,13 @@
-$(document).ready(function() {
+var mediaQuery = window.matchMedia("(max-width: 600px)");
+mediaQuery.addListener(setAnimation);
+
+// First run
+setAnimation(mediaQuery);
+
+function setAnimation(mediaQuery) {
+  if (mediaQuery.matches) {
+
+    $(document).ready(function() {
     $('#slide-1').show();
     $('#puntos-1').addClass('active-cd');
 
@@ -60,4 +69,14 @@ $(document).ready(function() {
             muestraSlideSiguiente();
         }
     });
+
+  new Swipe(document.getElementById('pasador'));
+
+
 });
+
+
+} else {
+
+}
+}
