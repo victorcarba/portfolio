@@ -1,6 +1,6 @@
 .menu {
     outline: none;
-    border: 0px;
+    border: 0;
     background-color: transparent;
     cursor: pointer;
 }
@@ -10,41 +10,29 @@
     border-left: 1px solid rgba(255, 255, 255, .3);
     border-bottom: 1px solid rgba(255, 255, 255, .3);
     float: right;
-    top: 0px;
+    top: 0;
 }
-
-
-
 /*ocuridad scroll*/
-
 .bg {
-  background: #000;
-  width: 100%;
-  height: 100px;
-  opacity: 0;
-  margin-top: 0px;
-  position: fixed;
-      z-index: 1;
-
+    background: #000;
+    width: 100%;
+    height: 100px;
+    opacity: 0;
+    margin-top: 0;
+    position: fixed;
+    z-index: 1;
 }
 
 .show {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .transition {
-  -webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
-
-
-
-
-
-
-
 /*CSS DEL MENU PRINCIPAL*/
 .overlay {
     height: 100%;
@@ -53,9 +41,8 @@
     z-index: 3;
     top: 0;
     left: 0;
-    background-color:rgba(0, 0, 0, .9);;
+    background-color: rgba(0, 0, 0, .9);
     transition: 0.5s;
-
 }
 
 .overlay-content {
@@ -63,54 +50,48 @@
     top: 10%;
     width: 100%;
     text-align: center;
-      overflow: hidden;
-    ul{
-      padding: 0;
-      margin: 4.5rem 0 0 0;
-      list-style: none;
-      align-items: center;
-      justify-content: center;
-      }
-      li{
-          text-align: center;
-          padding: 0.75rem;
-      }
+    overflow: hidden;
+
+    ul {
+        padding: 0;
+        margin: 4.5rem 0 0;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li {
+        text-align: center;
+        padding: 0.75rem;
+    }
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
-
     display: block;
     transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:focus,
+.overlay a:hover {
     color: #f1f1f1;
 }
 
 .overlay .closebtn {
-
     position: absolute;
     top: -30px;
     right: 5px;
     font-size: 60px;
 }
 
-
-
-
-
-
-
-.cerrar{
-  padding: 1.37rem 1.75rem 1.37rem 1.75rem;
-  border-left: 1px solid rgba(255, 255, 255, .3);
-  border-bottom: 1px solid rgba(255, 255, 255, .3);
-  float: right;
-  top: 0px;
+.cerrar {
+    padding: 1.37rem 1.75rem;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    float: right;
+    top: 0;
 }
-
 
 .cabecera {
     /*background: -webkit-linear-gradient(left, #A31CFF, #00C3FF);
@@ -140,135 +121,136 @@
 }
 
 .miga {
-  padding-right: 1.5rem;
-  padding-top: 6.5rem;
-  font-size: 16px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 300;
-  color: #fff;
-  text-align: right;
+    padding-right: 1.5rem;
+    padding-top: 6.5rem;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: #fff;
+    text-align: right;
 }
-
 
 .subrayado {
     border-bottom: 1px solid;
 }
 
-nav{
-display: none;
-}
-
-
-
-@media (min-width: 600px) {
-
-.miga {
-  padding-right: 7.5rem;
-  padding-top: 61px;
-}
-
-}
-
-
-
-@media (min-width: 1025px) {
-
-  .bg {
-  display: none;
-
-  }
-
-  .cabecera {
-      z-index: 0;
-  }
-
-  .hamburguesa {
-      display: none;
-  }
-
-  #logo {
-    margin-top: 2.25rem;
-    margin-left: 2.25rem;
-  }
-
-  #tamaño_logo{
-    width: 45px;
-    height: 45px;
-  }
-
-  #profesion{
-    display: flex;
-    position: static;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    margin: 0.8rem;
-    margin-top: 2.25rem;
-    color: #fff;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    font-size: 14px;
-
-  }
-  .nombre {
-      display: flex;
-      position: static;
-      writing-mode: vertical-lr;
-      transform: rotate(180deg);
-      margin: 0.8rem;
-      margin-top: 2.25rem;
-      font-weight: 400;
-
-
-  }
-  .nombre div {
-      padding-top: 0.8rem;
-      font-size: 14px;
-  }
-  .desple{
+nav {
     display: none;
-  }
-  nav {
-      display: block;
-      display: flex;
-      float: right;
-  }
+}
+@media (min-width: 600px) {
+    .miga {
+        padding-right: 7.5rem;
+        padding-top: 61px;
+    }
+}
+@media (min-width: 1025px) {
+    .bg {
+        display: none;
+    }
 
-  ul {
-      display: flex;
-      font-size: 15px;
-      font-weight: 300;
-      font-family: 'Roboto Mono', monospace;
-      margin: 0px;
-      padding: 0px;
-  }
+    .cabecera {
+        z-index: 0;
+    }
 
-  nav ul li a {
-      margin: 2.25rem 2.25rem 2.25rem 0;
-      float: left;
-      border-bottom: 1px solid transparent;
-  }
-  a:hover {
-      border-bottom: 1px solid white;
-  }
+    .hamburguesa {
+        display: none;
+    }
 
+    #logo {
+        margin-top: 2.25rem;
+        margin-left: 2.25rem;
+    }
 
-    a.sinsubrayado:hover {
-        border-bottom: 0px;
+    #tamaño_logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nada {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        padding-bottom: 3.5rem;
+        margin-left: 2rem;
     }
 
 
-  .espacio{
-    margin-right: 3rem;
-  }
-  .selec {
-      border-bottom: 1px solid white;
-  }
-  .miga {
-      display: none;
-  }
 
-  .overlay{
-    display: none;
 
-  }
+
+    #profesion {
+        display: flex;
+        position: static;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin: 2.25rem 0.8rem 0.8rem;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .nombre {
+        display: flex;
+        position: static;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin: 2.25rem 0.8rem 0.8rem;
+        font-weight: 400;
+    }
+
+    .nombre div {
+        padding-top: 0.8rem;
+        font-size: 14px;
+    }
+
+    .desple {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul {
+        display: flex;
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Roboto Mono', monospace;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a {
+        margin: 2.25rem 2.25rem 2.25rem 0;
+        float: left;
+        border-bottom: 1px solid transparent;
+    }
+
+    a:hover {
+        border-bottom: 1px solid white;
+    }
+
+    a.sinsubrayado:hover {
+        border-bottom: 0;
+    }
+
+    .espacio {
+        margin-right: 3rem;
+    }
+
+    .selec {
+        border-bottom: 1px solid white;
+    }
+
+    .miga {
+        display: none;
+    }
+
+    .overlay {
+        display: none;
+    }
 }

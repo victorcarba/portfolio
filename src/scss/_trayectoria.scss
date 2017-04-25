@@ -1,8 +1,33 @@
+
 .scroll{
   align-content: center;
     position: relative;
     width: 87%;
 
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .2);
+  border: 71px none #ffffff;
+  border-radius: 31px;
+}
+
+
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, .0);
+  border: 65px none #ffffff;
+  border-radius: 34px;
 }
 
 .numeropasador{
@@ -71,13 +96,18 @@ h6.girado{
 
 @media (min-width: 600px) {
 
-  .scroll{
-    top:3rem;
+
+.scroll {
+    align-content: center;
+      position: absolute;
+    top: 7.5rem;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    overflow-y: auto;
+      left: 50%;
+      transform: translatex(-50%);
       width: 73%;
-      height: 750px;
-      	overflow-y: auto;
-        border-top: 1px solid rgba(255,255,255,0.4);
-        border-bottom: 1px solid rgba(255,255,255,0.4);
+      height: 75%;
   }
 
 
@@ -106,6 +136,8 @@ h6.girado{
 
   }
 
+
+
   .fecha {
     font-size: 55px;
     margin-left: 4rem;
@@ -131,12 +163,12 @@ h6.girado{
 @media (min-width: 1025px) {
 
 
-  .scroll{
-    position: absolute;
-      width: 65%;
-      height: 550px;
-      top: 50%;
-      transform: translateY(-50%);
+  .scroll {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    height: 75%;
   }
 
   .numeropasador{
