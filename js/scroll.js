@@ -1,3 +1,5 @@
+//pasador numerico
+
 $(document).ready(function() {
 
 
@@ -37,3 +39,5 @@ $(document).ready(function() {
     });
 
 });
+
+//barra scroll
