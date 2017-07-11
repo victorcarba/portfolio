@@ -1,3 +1,7 @@
+.cv{
+  display: none;
+}
+
 .pie{
   width: 100%;
   font-family: 'Roboto Mono', monospace;
@@ -27,11 +31,13 @@ padding-left: 0px;
 
 .fijo{
     width: 100%;
-    bottom: 0;
-    margin-top: 3rem;
-   position: fixed;
+   margin-top: 31.5rem;
 }
 
+.fijo2{
+    width: 100%;
+   margin-top: 34.5rem;
+}
 
 @media (min-width: 600px) {
 
@@ -45,6 +51,7 @@ padding-left: 0px;
   .pie{
     margin:0;
     padding-bottom: 1.5rem;
+        text-align: center;
   }
 
 
@@ -53,8 +60,13 @@ padding-left: 0px;
   margin: 3rem 0 1rem 0;
     }
 
+    .cv{
+      display: inline-block;
+    }
+
 
   .contacto{
+    float: left;
     margin-bottom: 0;
   }
 
@@ -82,11 +94,17 @@ footer {
 .pie{
     padding: 0 0 2.25rem 0;
     position: fixed;
+
+}
+.cv{
+  margin-left: 9%;
+
 }
 
 .contacto{
 padding-left: 2.25rem;
 }
+
 
 .rrss{
 padding-right: 2.25rem;

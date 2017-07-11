@@ -47,7 +47,6 @@
 
 .overlay-content {
     position: relative;
-    top: 10%;
     width: 100%;
     text-align: center;
     overflow: hidden;
@@ -182,11 +181,12 @@ nav {
         position: static;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
-        margin: 2.25rem 0.8rem 0.8rem;
+        margin: 2.25rem 1.8rem 0.8rem;
         color: #fff;
         font-family: 'Roboto Mono', monospace;
         font-weight: 300;
         font-size: 14px;
+        transform-origin: 0 50%;
     }
 
     .nombre {
@@ -194,8 +194,11 @@ nav {
         position: static;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
-        margin: 2.25rem 0.8rem 0.8rem;
+        margin: 2.25rem 1.8rem 0.8rem;
         font-weight: 400;
+        transform-origin: 0 50%;
+        padding: 0;
+
     }
 
     .nombre div {
